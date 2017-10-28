@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Button from './Button.js';
+import Check from './Check.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,6 +15,14 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+
+        <div id="main-app">
+          <Check name="asdf" />
+          <Check name="asdf" />
+
+          <Button name="Pulsame!"/>
+        </div>
       </div>
     );
   }
